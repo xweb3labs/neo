@@ -1342,6 +1342,7 @@ l {
     text-align: center;
 }
 
+
 .leftChoose a:last-child {
     margin: 0px;
 }
@@ -1353,6 +1354,12 @@ l {
     border-radius: calc(15/1920*100vw);
     border: calc(2/1920*100vw) solid #81FA27;
     margin-bottom: calc(12/1920*100vw);
+    opacity: 0.7;
+}
+
+.leftChoose .leftChooseYes{
+    border-width: 4px!important;
+    opacity: 1;
 }
 
 .leftChoose a .icon {
@@ -1403,7 +1410,6 @@ l {
     justify-content: space-between;
     padding-right: 5vw;
 }
-
 .centerList .tit {
     font-family: Consolas;
     font-weight: 400;
